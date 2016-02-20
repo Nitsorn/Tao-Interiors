@@ -1,0 +1,421 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'avenir';
+  src: url("./../assets/Avenir.ttc");
+}
+@font-face {
+  font-family: 'walkway';
+  src: url("./../assets/Walkway_SemiBold.ttf");
+}
+@font-face {
+  font-family: 'walkwayBold';
+  src: url("./../assets/Walkway_UltraBold.ttf");
+}
+/* line 33, ../sass/screen.scss */
+::selection {
+  background: #EA8854;
+  /* WebKit/Blink Browsers */
+}
+
+/* line 36, ../sass/screen.scss */
+::-moz-selection {
+  background: #EA8854;
+  /* Gecko Browsers */
+}
+
+/* line 45, ../sass/screen.scss */
+p {
+  margin: 10px;
+}
+
+/* line 50, ../sass/screen.scss */
+html {
+  top: 0;
+  left: 0;
+  color: #595A5C;
+}
+/* line 55, ../sass/screen.scss */
+html body {
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+/* line 61, ../sass/screen.scss */
+html .landing-container {
+  font-family: 'walkway';
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+/* line 66, ../sass/screen.scss */
+html .landing-container#landing-container {
+  background-image: url("./../assets/background-2-big.png");
+}
+/* line 74, ../sass/screen.scss */
+html .landing-container #nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* line 78, ../sass/screen.scss */
+html .landing-container #nav > * {
+  display: inline-block;
+  vertical-align: middle;
+  color: #E56826;
+  margin: 20px;
+}
+/* line 86, ../sass/screen.scss */
+html .landing-container #landing-content {
+  max-width: 1400px;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: inherit;
+}
+/* line 94, ../sass/screen.scss */
+html .landing-container #landing-content .content {
+  position: absolute;
+  top: 0;
+  float: left;
+  left: 140px;
+  height: auto;
+  line-height: 1.7;
+  letter-spacing: 1.2;
+  padding: 10px;
+}
+@media screen and (max-width: 1400px) {
+  /* line 94, ../sass/screen.scss */
+  html .landing-container #landing-content .content {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 94, ../sass/screen.scss */
+  html .landing-container #landing-content .content {
+    width: 1000px;
+  }
+}
+/* line 112, ../sass/screen.scss */
+html .landing-container #landing-content .content h3 {
+  font-family: 'WalkwayBold';
+  font-size: 15px;
+  color: #56BBBD;
+  margin-top: 80px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+/* line 122, ../sass/screen.scss */
+html .landing-container #landing-content .content .scrollable-frame {
+  top: 0;
+  transition: 0.2s ease;
+  height: auto;
+}
+/* line 131, ../sass/screen.scss */
+html .landing-container #landing-content #tools {
+  position: fixed;
+  right: 115px;
+  width: 250px;
+  text-align: left;
+  margin-top: 50px;
+  height: calc(100vh - 50px);
+  padding-left: 10px;
+}
+/* line 140, ../sass/screen.scss */
+html .landing-container #landing-content #tools > * {
+  display: block;
+}
+/* line 145, ../sass/screen.scss */
+html .landing-container #landing-content #tools a #toTop {
+  bottom: 15px;
+  position: absolute;
+  text-align: left;
+  margin-left: -20px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 30px;
+  font-size: 11px;
+  color: #979797;
+  transition: 0.1s ease;
+  text-decoration: none;
+}
+/* line 157, ../sass/screen.scss */
+html .landing-container #landing-content #tools a #toTop:hover {
+  background-color: #414142;
+  color: #56BBBD;
+}
+/* line 164, ../sass/screen.scss */
+html .landing-container #landing-content #tools #logo-frame {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+/* line 172, ../sass/screen.scss */
+html .landing-container #landing-content #tools #logo-frame #logo {
+  background-image: url("./../assets/logo.png");
+  background-size: auto 70px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 70px;
+}
+/* line 182, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons {
+  float: left;
+  width: 200px;
+  color: #979797;
+  transition: 0.4s ease;
+  font-size: 10px;
+}
+/* line 191, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main, html .landing-container #landing-content #tools #buttons #projects {
+  background-color: transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+/* line 196, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main a, html .landing-container #landing-content #tools #buttons #projects a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+/* line 200, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main a div, html .landing-container #landing-content #tools #buttons #projects a div {
+  color: #595A5C;
+  padding: 7px;
+  padding-left: 0px;
+  height: 10px;
+  transition: 0.2s ease;
+  letter-spacing: 1.3px;
+}
+/* line 209, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main a div.active.orange, html .landing-container #landing-content #tools #buttons #projects a div.active.orange {
+  color: #E56826;
+}
+/* line 212, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main a div.active.blue, html .landing-container #landing-content #tools #buttons #projects a div.active.blue {
+  color: #56BBBD;
+}
+/* line 221, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main {
+  border-bottom: 1px solid #c0c0c0;
+}
+/* line 224, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #main a div:hover {
+  font-family: 'WalkwayBold';
+  color: #E56826;
+  background: linear-gradient(90deg, #EDECED, white);
+  padding-left: 5px;
+}
+/* line 234, ../sass/screen.scss */
+html .landing-container #landing-content #tools #buttons #projects a div:hover {
+  font-family: 'WalkwayBold';
+  color: #56BBBD;
+  background: linear-gradient(90deg, #EDECED, white);
+  padding-left: 5px;
+}
+
+/* line 253, ../sass/screen.scss */
+#story {
+  font-family: 'Avenir';
+}
+/* line 257, ../sass/screen.scss */
+#story .scrollable-frame {
+  font-size: 11px;
+  overflow: scroll;
+}
+/* line 261, ../sass/screen.scss */
+#story .scrollable-frame #image {
+  width: 100%;
+  height: 300px;
+  background-image: url("./../assets/about.jpg");
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+/* line 271, ../sass/screen.scss */
+#story .scrollable-frame #quote-container {
+  width: 87%;
+  height: 25px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  font-style: italic;
+  opacity: 0.8;
+}
+/* line 282, ../sass/screen.scss */
+#story .scrollable-frame #quote-container:hover {
+  width: 95%;
+}
+/* line 286, ../sass/screen.scss */
+#story .scrollable-frame #quote-container #quote {
+  text-align: left;
+  font-size: 12px;
+  width: 80%;
+  margin: auto;
+}
+/* line 292, ../sass/screen.scss */
+#story .scrollable-frame #quote-container #quoter {
+  text-align: right;
+}
+/* line 299, ../sass/screen.scss */
+#story .scrollable-frame ul li {
+  margin-left: 30px;
+  color: #56BBBD;
+}
+/* line 304, ../sass/screen.scss */
+#story .scrollable-frame #last {
+  margin-bottom: 50px;
+}
+/* line 306, ../sass/screen.scss */
+#story .scrollable-frame #last a {
+  color: #56BBBD;
+  text-decoration: none;
+}
+/* line 309, ../sass/screen.scss */
+#story .scrollable-frame #last a:hover {
+  text-decoration: underline;
+  color: #E56826;
+}
+
+/* line 319, ../sass/screen.scss */
+#projects {
+  background-color: white;
+}
+/* line 322, ../sass/screen.scss */
+#projects #image-container {
+  margin: auto;
+}
+@media screen and (max-width: 1400px) {
+  /* line 322, ../sass/screen.scss */
+  #projects #image-container {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 322, ../sass/screen.scss */
+  #projects #image-container {
+    width: 1000px;
+  }
+}
+/* line 331, ../sass/screen.scss */
+#projects #image-container > * {
+  margin: 0px;
+}
+/* line 335, ../sass/screen.scss */
+#projects #image-container #project-images img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1400px) {
+  /* line 335, ../sass/screen.scss */
+  #projects #image-container #project-images img {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 335, ../sass/screen.scss */
+  #projects #image-container #project-images img {
+    width: 1000px;
+  }
+}
+/* line 346, ../sass/screen.scss */
+#projects #image-container .index {
+  height: 500px;
+  margin-top: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px auto;
+}
+@media screen and (max-width: 1400px) {
+  /* line 346, ../sass/screen.scss */
+  #projects #image-container .index {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 346, ../sass/screen.scss */
+  #projects #image-container .index {
+    width: 1000px;
+  }
+}
+
+/* line 364, ../sass/screen.scss */
+#landing-container .content {
+  background-color: transparent;
+}

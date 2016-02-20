@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="71px" height="70px" viewBox="0 0 71 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-819.000000, -61.000000)">
+            <g id="Group-Copy-6" sketch:type="MSLayerGroup" transform="translate(742.000000, 61.000000)">
+                <g id="Group" transform="translate(77.527322, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="Group-Copy" fill="#C5C7C4">
+                        <rect id="Rectangle-1" x="0" y="0" width="35.1457195" height="69.9792362"></rect>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(35.145719, 0.000000)" fill="#56BBBD">
+                        <rect id="Rectangle-1" x="0" y="0" width="35.1457195" height="69.9792362"></rect>
+                    </g>
+                    <polygon id="Triangle-1" fill="#414142" points="35.1457195 0 70.291439 69.9792362 0 69.9792362 "></polygon>
+                    <polygon id="Triangle-2" fill="#5A5B60" points="17.0560109 36.0187245 35.1256247 69.9792362 0 69.9792362 "></polygon>
+                    <polygon id="Triangle-2-Copy" fill="#5A5B60" points="53.2354281 36.0187245 70.291439 69.9792362 35.1158139 69.9792362 "></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
